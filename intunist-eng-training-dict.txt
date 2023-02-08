@@ -1,0 +1,82 @@
+# Intunist English Dictionary. DiffSinger ver.
+# Extra phonemes that are unlikely to be used are commented out. You can uncomment them if used in your dataset.
+# DiffSinger training may fail if you train with unused phonemes.
+#
+# Internal DiffSinger use, don't uncomment.
+#
+#SP SP # Silent pauses # Handled internally, don't uncomment.
+#AP AP # breaths, can be mixed with SP [SP AP SP] # Handled internally, don't uncomment.
+#<BOS> <BOS> # Handled internally, don't uncomment.
+#<EOS> <EOS> # Handled internally, don't uncomment.
+# | | # Handled internally, don't uncomment.
+#
+# Some phonemes are commented out. Uncomment if used.
+#
+#exh exh # uncomment if used in dataset
+#axh axh # uncomment if used in dataset
+vf vf
+q q
+Edge vf
+Glottalstop q
+# cl cl # uncomment if used in dataset
+# cs cs # uncomment if used in dataset
+# cr cr # uncomment if used in dataset
+ah ah
+aa aa
+ao ao
+ae ae
+ax ax
+iy iy
+ih ih
+uh uh
+uw uw
+eh eh
+er er
+ay ay
+# a a # use ay instead
+ey ey
+# e e # use ay instead
+oy oy
+aw aw
+ow ow
+# o o # use ow instead
+p p
+b b
+t t
+d d
+k k
+g g
+s s
+z z
+ch ch
+j jh
+jh jh
+sh sh
+zh zh
+f f
+v v
+h hh
+hh hh
+th th
+dh dh
+n n
+m m
+ng ng
+w w
+y y
+r r
+# rr rr # uncomment if trilled r in dataset
+# rx rx # uncomment if fricative r in dataset
+l l
+dx dx
+el el
+em em
+en en
+eng ih ng
+ux uw
+nx n
+axr er
+ix ax
+hv hh
+# x x # uncomment if you're welsh
+# trash trash
