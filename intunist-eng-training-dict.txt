@@ -1,6 +1,6 @@
 # Intunist English Dictionary. DiffSinger ver.
 # Extra phonemes that are unlikely to be used are commented out. You can uncomment them if used in your dataset.
-# DiffSinger training may fail if you train with unused phonemes.
+# DiffSinger training may fail if you train with unused/missing phonemes.
 #
 # Internal DiffSinger use, don't uncomment.
 #
@@ -35,7 +35,7 @@ er er
 ay ay
 # a a # use ay instead
 ey ey
-# e e # use ay instead
+# e e # use ey instead
 oy oy
 aw aw
 ow ow
@@ -68,11 +68,11 @@ r r
 # rr rr # uncomment if trilled r in dataset
 # rx rx # uncomment if fricative r in dataset
 l l
-dx dx
-el el
-em em
-en en
-eng ih ng
+# dx dx # uncomment if in your dataset
+# el el # uncomment if in your dataset
+# em em # uncomment if in your dataset
+# en en # uncomment if in your dataset
+# eng ih ng
 ux uw
 nx n
 axr er
