@@ -1,0 +1,82 @@
+# this is a basic dsdict with all the phonemes included.
+# words are not included as no good singing dictionary is currently available with proper pronuncation entries.
+# we forgot to upload this ages ago.
+#
+symbols:
+- {symbol: ah, type: vowel}
+- {symbol: aa, type: vowel}
+- {symbol: oh, type: vowel}
+- {symbol: ao, type: vowel}
+- {symbol: ae, type: vowel}
+- {symbol: ax, type: vowel}
+- {symbol: iy, type: vowel}
+- {symbol: ih, type: vowel}
+- {symbol: uh, type: vowel}
+- {symbol: uw, type: vowel}
+- {symbol: eh, type: vowel}
+- {symbol: er, type: vowel}
+- {symbol: ay, type: vowel}
+- {symbol: aw, type: vowel}
+- {symbol: ey, type: vowel}
+- {symbol: oy, type: vowel}
+- {symbol: ow, type: vowel}
+# don't use these for english. DiffSinger handles sustaining a single phoneme entry across multiple notes
+#- {symbol: a, type: vowel}
+#- {symbol: e, type: vowel}
+#- {symbol: i, type: vowel}
+#- {symbol: o, type: vowel}
+#- {symbol: u, type: vowel}
+#
+- {symbol: p, type: plosive}
+- {symbol: b, type: plosive}
+- {symbol: t, type: plosive}
+- {symbol: d, type: plosive}
+- {symbol: k, type: plosive}
+- {symbol: g, type: plosive}
+- {symbol: s, type: fricative}
+- {symbol: z, type: fricative}
+- {symbol: ch, type: affricate}
+- {symbol: jh, type: affricate}
+- {symbol: sh, type: fricative}
+- {symbol: zh, type: fricative}
+- {symbol: f, type: fricative}
+- {symbol: v, type: fricative}
+- {symbol: hh, type: fricative}
+- {symbol: th, type: fricative}
+- {symbol: dh, type: fricative}
+- {symbol: n, type: nasal}
+- {symbol: m, type: nasal}
+- {symbol: ng, type: nasal}
+- {symbol: w, type: semivowel}
+- {symbol: y, type: semivowel}
+- {symbol: r, type: approximant}
+- {symbol: l, type: approximant}
+- {symbol: q, type: glottal-plosive}
+- {symbol: dx, type: tap}
+- {symbol: rr, type: trill}
+- {symbol: rx, type: fricative}
+- {symbol: x, type: fricative}
+#
+# syllabic vowels. You should avoid these for english datasets due to misuse.
+- {symbol: el, type: vowel}
+- {symbol: em, type: vowel}
+- {symbol: en, type: vowel}
+#
+# optional untility phonemes
+- {symbol: exh, type: aspiration}
+- {symbol: axh, type: aspiration}
+- {symbol: vf, type: laryngealisation}
+- {symbol: cl, type: held-release}
+- {symbol: cr, type: vocal-break}
+#
+entries:
+- {grapheme: "ix", phonemes: [ax]}
+- {grapheme: "hv", phonemes: [hh]}
+- {grapheme: "axr", phonemes: [er]}
+- {grapheme: "q", phonemes: [q]}
+- {grapheme: "vf", phonemes: [vf]}
+- {grapheme: "cl", phonemes: [cl]}
+- {grapheme: "el", phonemes: [ih, l]}
+- {grapheme: "em", phonemes: [ih, m]}
+- {grapheme: "en", phonemes: [ih, n]}
+# at some point word entries will hopefully be included when we write some dictionaries
