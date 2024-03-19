@@ -77,7 +77,7 @@ entries:
 - {grapheme: "q", phonemes: [q]}
 - {grapheme: "vf", phonemes: [vf]}
 - {grapheme: "cl", phonemes: [cl]}
-- {grapheme: "el", phonemes: [ih, l]}
-- {grapheme: "em", phonemes: [ih, m]}
-- {grapheme: "en", phonemes: [ih, n]}
+- {grapheme: "el", phonemes: [ax, l]}
+- {grapheme: "em", phonemes: [ax, m]}
+- {grapheme: "en", phonemes: [ax, n]}
 # at some point word entries will hopefully be included when we write some dictionaries
