@@ -70,6 +70,7 @@ symbols:
 - {symbol: cr, type: vocal-break}
 #
 entries:
+- {grapheme: "br", phonemes: [AP]} # just in case
 - {grapheme: "ix", phonemes: [ax]}
 - {grapheme: "hv", phonemes: [hh]}
 - {grapheme: "axr", phonemes: [er]}
